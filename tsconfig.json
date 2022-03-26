@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
