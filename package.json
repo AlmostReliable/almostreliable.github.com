@@ -6,11 +6,13 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "devDependencies": {
     "@astrojs/react": "^0.0.2",
     "astro": "^0.25.2",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.6.3"
