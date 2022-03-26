@@ -1,1 +1,0 @@
-import{r as s,j as o,a as c}from"./chunks/chunk.7f345ec3.js";function i(){const[n,e]=s.exports.useState(0),r=()=>e(t=>t+1);return o("div",{id:"react",className:"counter",children:[c("button",{onClick:()=>e(t=>t-1),children:"-"}),c("pre",{children:n}),c("button",{onClick:r,children:"+"})]})}export{i as default};
